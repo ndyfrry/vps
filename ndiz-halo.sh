@@ -35,12 +35,19 @@ fi
 
 # ---- Render ----
 printf '\n'
-printf '%s\n' "${C_TEAL}${C_BOLD}  █▄░█ █▀▄ █ ▀▀▀█ ▀▀▀█ █░█ █▀▄${C_RESET}"
-printf '%s\n' "${C_TEAL}${C_BOLD}  █░▀█ █░█ █ ░▄▀░ ░▄▀░ ▄▀▄ █░█${C_RESET}"
-printf '%s\n' "${C_TEAL}${C_BOLD}  ▀░░▀ ▀▀░ ▀ ▀▀▀▀ ▀▀▀▀ ▀░▀ ▀▀░${C_RESET}"
-printf '%s\n' "${C_PINK}${C_BOLD}  ░█▀▄ █▀ █░█${C_RESET}"
-printf '%s\n' "${C_PINK}${C_BOLD}  ░█░█ █▀ █░█${C_RESET}"
-printf '%s\n' "${C_PINK}${C_BOLD}  ░▀▀░ ▀▀ ░▀░${C_RESET}"
+printf '%s\n' "${C_TEAL}${C_BOLD}  ███╗   ██╗██████╗ ██╗███████╗███████╗██╗  ██╗██████╗ ${C_RESET}"
+printf '%s\n' "${C_TEAL}${C_BOLD}  ████╗  ██║██╔══██╗██║╚══███╔╝╚══███╔╝╚██╗██╔╝██╔══██╗${C_RESET}"
+printf '%s\n' "${C_TEAL}${C_BOLD}  ██╔██╗ ██║██║  ██║██║  ███╔╝   ███╔╝  ╚███╔╝ ██║  ██║${C_RESET}"
+printf '%s\n' "${C_TEAL2}${C_BOLD}  ██║╚██╗██║██║  ██║██║ ███╔╝   ███╔╝   ██╔██╗ ██║  ██║${C_RESET}"
+printf '%s\n' "${C_TEAL2}${C_BOLD}  ██║ ╚████║██████╔╝██║███████╗███████╗██╔╝ ██╗██████╔╝${C_RESET}"
+printf '%s\n' "${C_TEAL2}${C_BOLD}  ╚═╝  ╚═══╝╚═════╝ ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═════╝ ${C_RESET}"
+printf '\n'
+printf '%s\n' "${C_PINK}${C_BOLD}              ██████╗ ███████╗██╗   ██╗${C_RESET}"
+printf '%s\n' "${C_PINK}${C_BOLD}              ██╔══██╗██╔════╝██║   ██║${C_RESET}"
+printf '%s\n' "${C_PINK2}${C_BOLD}              ██║  ██║█████╗  ██║   ██║${C_RESET}"
+printf '%s\n' "${C_PINK2}${C_BOLD}              ██║  ██║██╔══╝  ╚██╗ ██╔╝${C_RESET}"
+printf '%s\n' "${C_PINK2}${C_BOLD}              ██████╔╝███████╗ ╚████╔╝ ${C_RESET}"
+printf '%s\n' "${C_PINK2}${C_BOLD}              ╚═════╝ ╚══════╝  ╚═══╝  ${C_RESET}"
 printf '\n'
 printf '%s\n' "${C_WHITE}${C_BOLD}          ☁  Cloud Shell · Railway Ubuntu  🚂${C_RESET}"
 printf '%s\n' "${C_PINK}${C_BOLD}              Ubuntu SSH + Claude Code${C_RESET}"
